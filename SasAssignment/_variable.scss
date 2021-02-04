@@ -1,0 +1,29 @@
+$primary-color:orange;
+$dark-black:black;
+$grayish: #E8E8E8;
+$light-color:white;
+@function setbg($color)
+{
+  @if(lightness($color)>10)
+  {
+@return $grayish;
+  }
+  @else
+  {
+    @return yellow
+
+  }
+};
+@function setbg1($color)
+{
+  @if(($color)==white)
+  {
+@return $dark-black; 
+  }
+  @if(($color)==black)
+  {
+    @return $light-color; 
+  }
+  
+ 
+}

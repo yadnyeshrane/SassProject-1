@@ -1,0 +1,481 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.active {
+  color: orange;
+}
+
+.navigations {
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navigations ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.navigations a {
+  padding: 5px 5px;
+  margin: 1px 5px;
+}
+
+.btn-secondary, .practical-course .btn-prac, .lets-talk-1 .tak-sec-2 .btnsubmit {
+  display: inline-block;
+  padding: 0.5rem 1.7rem;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+.btn-secondary {
+  color: black;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.btn-secondary:hover {
+  background-color: black;
+  color: white;
+}
+
+.hero {
+  height: 98vh;
+  background-color: #E8E8E8;
+  color: black;
+}
+
+.hero .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px 0;
+}
+
+.hero .content h2 {
+  font-size: 35px;
+}
+
+.hero .content p {
+  max-width: 650px;
+  font-weight: 100;
+  line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 138vh;
+  }
+  .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.teaching {
+  background-color: black;
+  color: #fff;
+  height: 400px;
+  padding: 30px;
+}
+
+.teaching i {
+  font-size: 50px;
+}
+
+.teaching h3 {
+  text-align: center;
+  padding: 10px 0;
+  border: 1px solid black;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.teaching .teach-1 {
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.teaching .teach-1 div {
+  text-align: center;
+  border-right: 1px solid white;
+  padding: 0 10px;
+  font-weight: lighter;
+}
+
+.teaching .teach-1 div h4 {
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .teach-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .teaching {
+    height: 450px;
+  }
+}
+
+.best-section {
+  height: 200px;
+  border: 1px solid black;
+  padding: 30px 0;
+}
+
+@media (max-width: 768px) {
+  .best-section {
+    height: 250px;
+  }
+}
+
+.study {
+  padding: 20px;
+  text-align: center;
+}
+
+.study h2 {
+  font-size: 30px;
+  font-weight: lighter;
+  word-spacing: 0.3em;
+  font-weight: bolder;
+}
+
+.study p {
+  max-width: 1100px;
+  font-weight: 500;
+}
+
+.practical-course {
+  background-color: black;
+  color: white;
+}
+
+.practical-course .practicals-sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.practical-course .practicals-sec .pract-flex-1 {
+  max-width: 700px;
+}
+
+.practical-course img {
+  margin-top: 50px;
+}
+
+.practical-course .btn-prac {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.practical-course .btn-prac:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+
+@media (max-width: 768px) {
+  .practicals-sec {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.footer h3 {
+  text-align: center;
+  color: gray;
+}
+
+.training-sec {
+  background-color: black;
+  color: white;
+}
+
+.training-sec-1 {
+  padding: 50px 0;
+}
+
+.training-sec-1 h1 {
+  text-align: center;
+}
+
+.training-sec-1 .training-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 5px 10px;
+}
+
+.training-sec-1 .training-flex i {
+  font-size: 30px;
+}
+
+.training-sec-1 .training-flex > div {
+  font-size: 20px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.training-sec-1 .training-flex > div h4 {
+  font-weight: 200;
+}
+
+.training-sec-1 .training-para {
+  text-align: center;
+  width: 100%;
+}
+
+.fresh {
+  padding: 30px 0;
+}
+
+.fresh h2 {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.lets-tak {
+  background-color: black;
+  color: white;
+  font-weight: 300px;
+}
+
+.lets-talk-1 {
+  border: 1px solid black;
+  padding: 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.lets-talk-1 p {
+  max-width: 640px;
+}
+
+.lets-talk-1 .form-group input {
+  border: none;
+  border-bottom: 1px solid white;
+  width: 350px;
+  margin-bottom: 40px;
+  background-color: black;
+}
+
+.lets-talk-1 .form-group ::-webkit-input-placeholder {
+  color: orange;
+}
+
+.lets-talk-1 .form-group :-ms-input-placeholder {
+  color: orange;
+}
+
+.lets-talk-1 .form-group ::-ms-input-placeholder {
+  color: orange;
+}
+
+.lets-talk-1 .form-group ::placeholder {
+  color: orange;
+}
+
+.lets-talk-1 h3 {
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+.lets-talk-1 .tak-sec-2 .btnsubmit {
+  background-color: white;
+  border-radius: 20px;
+  float: right;
+}
+
+.lets-talk-1 .tak-sec-2 .btnsubmit:hover {
+  background-color: black;
+  border: 1px solid white;
+  color: orange;
+}
+
+@media (max-width: 768px) {
+  .lets-talk-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 10px;
+  }
+}
+
+.expertise {
+  background-color: black;
+  color: white;
+}
+
+.expert-1 {
+  padding: 40px 0;
+}
+
+.expert-1 h3 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.expert-1 P {
+  font-weight: lighter;
+}
+
+.expert-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.expert-flex div {
+  padding: 0 5px;
+}
+
+.expert-flex ul {
+  list-style-type: disc;
+}
+
+.expert-flex ul li {
+  margin-bottom: 10px;
+  font-weight: lighter;
+}
+
+@media (max-width: 768px) {
+  .expert-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=style.css.map */
